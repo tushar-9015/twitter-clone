@@ -9,7 +9,7 @@ import { Button } from "@mui/material";
 
 const Sidebar = () => {
   return (
-    <div>
+    <div className="sidebar">
       {/* logo */}
       <TwitterIcon className="sidebar__twitterIcon" />
 
