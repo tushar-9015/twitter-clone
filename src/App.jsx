@@ -1,10 +1,11 @@
-function App() {
-  const [count, setCount] = useState(0);
+import Sidebar from "./components/Sidebar/Sidebar";
 
+function App() {
   return (
     <>
       heloo
       {/* Sidebar */}
+      <Sidebar />
       {/* Feed */}
       {/* Widget */}
     </>
